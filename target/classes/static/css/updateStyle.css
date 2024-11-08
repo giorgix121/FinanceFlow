@@ -1,0 +1,74 @@
+body {
+    background-color: #f8f9fa; 
+    font-family: 'Fira Code', monospace; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn, .btn-sm {
+    color: #fff; 
+    background-color: #007bff; 
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover, .btn-sm:hover {
+    color: #fff; 
+    background-color: #0056b3; 
+    border-color: #004085;
+}
+
+.btn-outline-dark, .btn-shadow {
+    color: #fff; 
+    border-color: #007bff;
+}
+
+.btn-outline-dark:hover, .btn-shadow:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3;
+}
+
+input[type="text"], input[type="number"], input[type="date"], select {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="date"]:focus, select:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.container-fluid, .center-column {
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.updateCont {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+
+label {
+    display: block;
+    color: #495057; 
+    margin-bottom: 0.5rem;
+}
+
+
+.invalid-feedback {
+    color: #dc3545; 
+}
